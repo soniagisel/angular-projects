@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "title": "Heladera",
+        "price": "6000",
+        "type": "Cocina"
+    },
+    {
+        "id": "2",
+        "title": "Smart TV 3D Full HD",
+        "price": "15000",
+        "type": "Televisores"
+    },
+    {
+        "id": "3",
+        "title": "Sommier King Size",
+        "price": "7000",
+        "type": "Dormitorio"
+    },
+    {
+        "id": "4",
+        "title": "HomeTheater",
+        "price": "5000",
+        "type": "Audio"
+    }
+]

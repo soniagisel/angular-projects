@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+    <head>
+        <meta charset="utf-8">
+        <title>Electro DOM</title>
+        <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h2 id="main_title">Electro DOM</h2>
+            <nav id="menu">
+                <ul>
+                    <li class="menu"><a href="/">Home</a></li>
+                    <li class="menu"><a href="/#/productos">Productos</a></li>
+                    <li class="menu"><a href="/#/agregar-producto">Agregar Producto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main ng-view='' id="main"></main>
+        
+        <script type="text/javascript" src="static/js/angular.min.js"></script>
+        <script type="text/javascript" src="static/js/route.js"></script>
+        <script type="text/javascript" src="static/js/main.js"></script>
+        <script type="text/javascript" src="static/js/script.js"></script>
+    </body>
+</html>

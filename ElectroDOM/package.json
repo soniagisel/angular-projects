@@ -1,0 +1,9 @@
+{
+  "name": "WebUI_test",
+  "description": "Web UI test app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.x"
+  }
+}

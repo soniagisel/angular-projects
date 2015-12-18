@@ -1,0 +1,14 @@
+<section>
+    <h1>Agrega tu producto!</h1>
+    <div id="content">
+        <div id="info">
+            <input type="text" name="addToList" ng-model="newitem" placeholder="Agrega tu producto a la lista" autofocus />
+            <button class="button add" name="button1" ng-click="agregar()">Agregar</button>
+        </div>
+        <div id="messages">
+            <ul>
+            	<li class="msg" ng-repeat="item in lista track by $index" ng-bind="item" ng-click="remove()"></li>
+            </ul>
+        </div>
+    </div>
+</section>

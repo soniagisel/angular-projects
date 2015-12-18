@@ -1,0 +1,25 @@
+<section>
+    <h1>Cat&aacutelogo de productos</h1>
+    <div id="content">
+        <div id="info">
+            <input type="text" name="product" ng-model="newitem" placeholder="Escribe el nombre de un producto" autofocus />
+            <button class="button add" name="button2" ng-click="search()">Buscar</button>
+        </div>
+        <div id="messages"> 
+            <ul>
+                <li class="msg" ng-repeat="item in lista track by $index" ng-click="remove()">
+                    <span ng-bind="item.value"></span>
+                    <div id="img-content">
+                        <img class="product-view" src="../static/img/tvsmart.jpg">
+                    </div>
+                    <div id="descripcion">
+                        <p class="title">Smart TV 3D Full HD</p>
+                        <p class="price">Precio de lista: <span class="cost">$ 15000</span></p>
+                        <p class="tipo">Televisores</p>
+                    </div>
+                    <button class="button remove" name="button2" ng-click="remove(item.id)">Borrar</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
