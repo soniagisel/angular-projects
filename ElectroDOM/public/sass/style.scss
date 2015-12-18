@@ -42,8 +42,6 @@ table
     border-spacing: 0
 
 
-
-
 body  
     -webkit-box-sizing: border-box 
     -moz-box-sizing: border-box    
@@ -66,8 +64,7 @@ header
 .menu 
     display: inline-block
     width: 30%
-
-
+    color: red
 
 a 
     text-decoration: none
@@ -83,8 +80,6 @@ a
 
 a:hover 
     border-bottom: 3px solid #ffffff
-
-
 
 #main_title 
     font-size: 50px
