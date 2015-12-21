@@ -10,11 +10,11 @@
                 <li class="msg" ng-repeat="item in lista track by $index" ng-click="remove()">
                     <span ng-bind="item.value"></span>
                     <div id="img-content">
-                        <img class="product-view" src="../static/img/tvsmart.jpg">
+                        <img class="product-view" src="../static/img/{{item.image}}">
                     </div>
                     <div id="descripcion">
                         <p class="title">{{item.title}}</p>
-                        <p class="price">Precio de lista: <span class="cost">{{item.price}}</span></p>
+                        <p class="price">Precio de lista: <span class="cost">${{item.price}}</span></p>
                         <p class="tipo">{{item.type}}</p>
                     </div>
                     <button class="button remove" name="button2" ng-click="remove(item.id)">Borrar</button>
