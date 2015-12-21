@@ -13,9 +13,9 @@
                         <img class="product-view" src="../static/img/tvsmart.jpg">
                     </div>
                     <div id="descripcion">
-                        <p class="title">Smart TV 3D Full HD</p>
-                        <p class="price">Precio de lista: <span class="cost">$ 15000</span></p>
-                        <p class="tipo">Televisores</p>
+                        <p class="title">{{item.title}}</p>
+                        <p class="price">Precio de lista: <span class="cost">{{item.price}}</span></p>
+                        <p class="tipo">{{item.type}}</p>
                     </div>
                     <button class="button remove" name="button2" ng-click="remove(item.id)">Borrar</button>
                 </li>
