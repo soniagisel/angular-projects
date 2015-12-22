@@ -1,9 +1,7 @@
 var express = require('express');
 var app = express();
-var logger = require('morgan');
 var fs = require('fs');
 
-app.use(logger());
 app.use('/static', express.static(__dirname + '/public'));
 
 app.get('/', function(req, res){
