@@ -1,0 +1,7 @@
+/*** GITIGNORE ***/
+
+/** Gmae based in the tutorial from http://phaser.io/tutorials/making-your-first-phaser-game **/
+
+
+/* Ignoring MAC files */
+.DS_Store

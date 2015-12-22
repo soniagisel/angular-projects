@@ -1,55 +1,35 @@
 [
     {
-        "id": "1",
         "title": "Heladera",
         "price": "6000",
         "type": "Cocina",
         "image": "heladera.jpg"
     },
     {
-        "id": "2",
         "title": "Smart TV 3D Full HD",
         "price": "15000",
         "type": "Televisores",
         "image": "tvsmart.jpg"
     },
     {
-        "id": "3",
-        "title": "Sommier - King Size",
-        "price": "7000",
-        "type": "Dormitorio",
-        "image": "sommier.jpg"
-    },
-    {
-        "id": "4",
         "title": "Home Theater",
         "price": "5000",
         "type": "Audio",
         "image": "home-theater.jpg"
     },
     {
-        "id": "5",
         "title": "Microondas",
         "price": "2000",
         "type": "Cocina",
         "image": "microondas.jpg"
     },
     {
-        "id": "6",
         "title": "Licuadora",
         "price": "1500",
         "type": "Cocina",
         "image": "licuadora.jpg"
     },
     {
-        "id": "7",
-        "title": "Cómoda con Espejo",
-        "price": "6500",
-        "type": "Dormitorio",
-        "image": "comoda-con-espejo.jpg"
-    },
-    {
-        "id": "8",
         "title": "Microcomponente",
         "price": "4000",
         "type": "Audio",

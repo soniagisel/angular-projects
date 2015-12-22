@@ -37,14 +37,6 @@ myModule.controller('productController', ['$scope', '$http', function($scope, $h
 
     $scope.newitem = "";
 
-    /*$scope.agregar = function () {
-        $scope.lista.push({
-            id: $scope.lista[$scope.lista.length -1].id + 1,
-            value: $scope.newitem
-        });
-        $scope.newitem = "";
-    };*/
-
     $scope.search = function() {
 
     };
