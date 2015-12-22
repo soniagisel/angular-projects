@@ -2,12 +2,12 @@
     <h1>Cat&aacutelogo de productos</h1>
     <div id="content">
         <div id="info">
-            <input type="text" name="product" ng-model="searchBox" placeholder="Escribe el nombre de un producto" autofocus />
+            <input type="text" name="product" ng-model="searchProduct" placeholder="Escribe el nombre de un producto" autofocus />
             <button class="button add" name="button2" ng-click="search()">Buscar</button>
         </div>
         <div id="messages"> 
             <ul>
-                <li class="msg" ng-repeat="item in lista | filter: searchBox" ng-click="remove()">
+                <li class="msg" ng-repeat="item in lista | filter: searchProduct" ng-click="remove()">
                     <span ng-bind="item.value"></span>
                     <div id="img-content">
                         <img class="product-view" src="../static/img/{{item.image}}">

@@ -127,14 +127,10 @@ h1 {
 /* line 118, stdin */
 #info {
   background: rgba(2, 2, 2, 0.3);
-  border-radius: 5px;
-  margin: 1%;
-  height: 60px;
-  margin-left: 20%;
-  margin-right: 20%;
-  width: 62%; }
+  border-radius: 2px;
+  margin: 1%; }
 
-/* line 128, stdin */
+/* line 123, stdin */
 input {
   width: 64%;
   height: 17px;
@@ -145,7 +141,7 @@ input {
   border-radius: 5px;
   padding: 1%; }
 
-/* line 139, stdin */
+/* line 134, stdin */
 .button {
   width: 10%;
   height: 35px;
@@ -157,18 +153,18 @@ input {
   border: solid #E3A67D;
   text-align: center; }
 
-/* line 151, stdin */
+/* line 146, stdin */
 .add {
   background-color: #A0D49C;
   border: solid #A0D49C; }
 
-/* line 156, stdin */
+/* line 151, stdin */
 .remove {
   background-color: #E3A67D;
   border: solid #E3A67D;
   float: right; }
 
-/* line 162, stdin */
+/* line 157, stdin */
 .msg {
   background-color: rgba(255, 255, 255, 0.9);
   margin: 1%;
@@ -180,36 +176,36 @@ input {
   padding: 1%;
   color: #164D33; }
 
-/* line 174, stdin */
+/* line 169, stdin */
 .product-view {
   width: 100%;
   height: auto; }
 
-/* line 179, stdin */
+/* line 174, stdin */
 #img-content {
   float: left;
   width: 49%; }
 
-/* line 184, stdin */
+/* line 179, stdin */
 .descripcion {
   float: right; }
 
-/* line 188, stdin */
+/* line 183, stdin */
 p {
   display: inline-block; }
 
-/* line 192, stdin */
+/* line 187, stdin */
 #descripcion .title {
   font-weight: bold;
   font-size: 22px;
   margin-right: 5%; }
 
-/* line 198, stdin */
+/* line 193, stdin */
 #descripcion .price {
   margin-right: 5%;
   margin-top: 15px; }
 
-/* line 203, stdin */
+/* line 198, stdin */
 .cost {
   font-size: 19px;
   color: red; }

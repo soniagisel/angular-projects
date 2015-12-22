@@ -2,13 +2,34 @@
     <h1>Agrega tu producto!</h1>
     <div id="content">
         <div id="info">
-            <input type="text" name="addToList" ng-model="newitem" placeholder="Agrega tu producto a la lista" autofocus />
+            <span>Title</span><br>
+            <input type="text" name="productTitle" placeholder="What is the name of your product?" autofocus /><br>
+            <span>Price</span><br>
+            <input type="number" min="0" name="productPrice" placeholder="Set a price for your product" /><br>
+            <span>Type</span><br>
+            <select>
+                <option value="Kitchen">Kitchen</option>
+                <option value="TVs">TV</option>
+                <option value="Computers">Computers</option>
+                <option value="Tablets & e-readers">Tablets & e-readers</option>
+                <option value="Video Games">Video Games</option>
+                <option value="Wearable Technology">Wearable Technology</option>
+                <option value="Cell Phones">Cell Phones</option>
+                <option value="Connected Home">Connected home</option>
+                <option value="Drones & Toys">Drones & Toys</option>
+                <option value="Cameras & Camcorders">Cameras & Camcorders</option>
+                <option value="Headphones & Speakers">Headphones & Speakers</option>
+                <option value="Home Theater">Home Theater</option>
+                <option value="Movies">Movies</option>
+                <option value="Music">Music</option>
+                <option value="iPod/MP3 Players">iPod/MP3 Players</option>
+                <option value="Major Appliances">Major Appliances</option>
+                <option value="Small Appliances">Small Appliances</option>
+                <option value="Car & GPS">Car & GPS</option>
+            </select><br>
+            <span>Add a pic of your product</span><br>
+            <input type="file" name="productPic" accept="image/*">
             <button class="button add" name="button1" ng-click="agregar()">Agregar</button>
-        </div>
-        <div id="messages">
-            <ul>
-            	<li class="msg" ng-repeat="item in lista track by $index" ng-bind="item" ng-click="remove()"></li>
-            </ul>
         </div>
     </div>
 </section>
